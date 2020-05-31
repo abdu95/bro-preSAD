@@ -1,0 +1,2 @@
+.Net Core - cross platform: on Windows, Linux, MacOS
+.Net Frameword - Windows
