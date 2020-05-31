@@ -6,3 +6,12 @@ Solution name: PreSADSession1
 
 DEBUG CONSOLE (near TERMINAL) in VS Code 
 Try Bubble Sort 
+
+Whats the difference between TERMINAL and DEBUG CONSOLE?
+
+TERMINAL - it lives in OS, it can do many things, get content, git
+CONSOLE - scope of your debugger. You have access only to input
+
+.Net Core CLI overview
+
+Your C# code in NetFramework project will work fine in NetCore project as well
