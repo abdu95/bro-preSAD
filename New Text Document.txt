@@ -1,2 +1,8 @@
 .Net Core - cross platform: on Windows, Linux, MacOS
 .Net Frameword - Windows
+
+ConsoleAppNetFramework
+Solution name: PreSADSession1
+
+DEBUG CONSOLE (near TERMINAL) in VS Code 
+Try Bubble Sort 
