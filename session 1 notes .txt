@@ -38,3 +38,8 @@ Maybe to make a video: Set up in VSCode (for MacOS)?
 Debugger is for finding a bug, not for monitoring the values of all the variables
 Is there any tool/add-in for monitoring value of variables in different scopes? Profiler, but its not for monitoring 
 Debugger --> Watch (listener)
+
+links:
+https://github.com/pharrukh/pre-sad
+https://en.wikipedia.org/wiki/Scope_(computer_science)
+https://docs.microsoft.com/en-us/dotnet/core/tools/
