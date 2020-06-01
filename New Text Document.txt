@@ -15,3 +15,26 @@ CONSOLE - scope of your debugger. You have access only to input
 .Net Core CLI overview
 
 Your C# code in NetFramework project will work fine in NetCore project as well
+
+Debugging
+F10 => next line
+
+locals - scope of current breakpoint
+
+
+###
+cd 
+dotnet new console
+
+adding debugger (creating launch json file)
+.vscode folder - (hold alt to copy to your project)
+tasks.json - name of project (change to abduvasid_project)
+code -r - reload project
+
+Maybe to make a video: Set up in VSCode (for MacOS)?
+
+
+###
+Debugger is for finding a bug, not for monitoring the values of all the variables
+Is there any tool/add-in for monitoring value of variables in different scopes? Profiler, but its not for monitoring 
+Debugger --> Watch (listener)

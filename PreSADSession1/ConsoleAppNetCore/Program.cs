@@ -6,7 +6,26 @@ namespace ConsoleAppNetCore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var shouldWork = true;
+            while (shouldWork)
+            {
+                var input = Console.ReadKey();
+                if (input.KeyChar == 'e')
+                {
+                    Console.Write(" - Exiting....");
+                    shouldWork = false;
+                }
+                else if (input.KeyChar == 'h')
+                {
+                    Console.Write(" - Enter your name:");
+                    var name = Console.ReadLine();
+                    Console.WriteLine($"Hi, {name}");
+                }
+                else
+                {
+                    Console.Write(" - Wrong command... Try again \n");
+                }
+            }
         }
     }
 }
