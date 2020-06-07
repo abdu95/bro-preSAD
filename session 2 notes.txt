@@ -1,0 +1,26 @@
+Compared to Math, in c#, functions may not have any inputs at all. 
+csx - c# script file
+HW: what types are mutable and what types are immutable (string)?
+in - нельзя менять значения 
+ref - можно менять значения
+out - вы обязаны менять значение 
+
+string[] items = {};
+
+DB:
+NuGet - System.Data.SqlClient
+How SqlClient knows to which DB to target, to work
+(connectionString)
+using System.Data.SqlClient;
+inside Main, 
+SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder 
+
+- data source - 
+id/password
+initial catalog - name of db
+
+Reader - чтения из каждого ряда таблицы
+
+functions are good. but what if I have to add publisher, one more parameter? 
+I will have to change function every time and line of code where function is used
+it is better to have it in class
